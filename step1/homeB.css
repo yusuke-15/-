@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'メイリオ', sans-serif;
+}
+
+#firstframe {
+  background-color: white;
+  width: 1330px;
+  height: auto;
+}
+
+#secondframe {
+  background-color: white;
+  width: 1330px;
+  height: auto;
+}
+
+.list_name {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px;
+  color:#202020;
+}
+
+.list_name:hover{
+  text-decoration:underline;
+            text-decoration-color: #ffe552;
+
+}
+
+
+.watchmore {
+  position: relative;
+  bottom: 20px;
+  font-size: 14px;
+  border: none;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        margin-right: 120px;
+        bottom:0px;
+        color:#909090;
+}
+.watchmore:hover{
+  color:#606060;
+}
+
+
+.nav-list {
+  line-height: 100px;
+  float: right;
+  margin-left: 30px;
+  list-style: none;
+}
+
+.nav-list-item1 {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  right: 250px;
+  margin: 0 20px;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  right: 50px;
+  margin: 0 20px;
+}
+
+.Illustration {
+  text-align: center;
+  border: 1px solid #333333;
+  width: 195px;
+  height: 195px;
+}
+
+.frame2 {
+  /*border: 1px dotted #333333;*/
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+.artwork {
+  border: 1px solid #e6e6fa;
+  width: 195px;
+  height: 195px;
+  border-radius: 10px 10px 10px 10px;
+  object-fit: cover;
+  /* border: 1px solid #333333; */
+}
+
+.title {
+  text-align: center;
+}
+
+.acc {
+  text-align: center;
+}
+
+.time {
+  text-align: center;
+}
+
+.slide-items__wrap {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+
+.artwork_name{
+  font-size: 17px;
+  font-weight: 550;
+  margin-left:20px;
+}
+
+.artwork_frame {
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user_icon{
+  width: 25px;
+  height: 25px;
+  float: left;
+  border-radius: 50%;
+  border: 1px solid #e6e6fa;
+  margin-left: 16px;
+}
+
+.account_name{
+  font-size: 15px;
+  color:#606060;
+  font-weight: 500;
+  margin-left: 5px;
+position: relative;
+top:1px;
+}
+
+
+
+.bann_img{
+  width:1419px;
+  height:400px;
+  margin: 30px 50px 0px 50px;
+  object-fit: cover;
+  object-position: 50% 85%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.bann_txt{
+  position: relative;
+  right:55px;
+}
+.btxt1{
+  position: relative;
+  top: -35px;
+  font-size: 20px;
+  color:#c0c0c0;
+  font-weight: 600;
+}
+
+.btxt2{
+  position: relative;
+  top: -85px;
+  font-size: 15px;
+  color:#c0c0c0;
+  font-weight: 500;
+}
+
+.foot{
+  margin-left: 46%;
+  margin-bottom: -10px;
+  width:150px;
+  height:100px;
+  opacity: .50;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.title1 {
+  width: 500px;
+  height: 50px;
+  position: relative;
+  left: 600px;
+  display: flex;
+  overflow: hidden;
+  color: #ffe552;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.title1 span {
+  display: block;
+  transform: translate(0, 105%);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+.title1.-visible span {
+  transform: translate(0, 0);
+}
+
+.title1 span:nth-child(2) {
+  transition-delay: 0.06s;
+  color: red;
+}
+
+.title1 span:nth-child(3) {
+  transition-delay: 0.12s;
+}
+
+.title1 span:nth-child(4) {
+  transition-delay: 0.18s;
+}
+
+.title1 span:nth-child(5) {
+  transition-delay: 0.24s;
+}
+
+.title1 span:nth-child(6) {
+  transition-delay: 0.30s;
+}
+
+.title1 span:nth-child(7) {
+  transition-delay: 0.36s;
+}
+
+.title1 span:nth-child(8) {
+  transition-delay: 0.42s;
+}
+
+.title1 span:nth-child(9) {
+  transition-delay: 0.48s;
+}
+
+.title1 span:nth-child(10) {
+  transition-delay: 0.54s;
+  color: red;
+}
+
+.title1 span:nth-child(11) {
+  transition-delay: 0.6s;
+}
+
+.title1 span:nth-child(12) {
+  transition-delay: 0.66s;
+}
+
+.title1 span:nth-child(13) {
+  transition-delay: 0.72s;
+}
+
+.title1 span:nth-child(14) {
+  transition-delay: 0.78s;
+}
+
+.foot{
+  margin-left: 45%;
+  margin-top: 80px;
+  margin-bottom: -8px;
+  width:150px;
+  height:100px;
+  opacity: .50;
+}

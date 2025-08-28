@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+.artwork {
+    width: 175px;
+    height: 175px;
+    border-radius: 10px 10px 10px 10px;
+    object-fit: cover;
+    /* border: 1px solid #333333; */
+}
+
+#frame1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#frame2 {
+    width: 160px;
+    height: auto;
+    margin: 1%;
+    /* border: 1px solid #333333; */
+}
+
+.frame3{
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#watchhead {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #333333;
+}
+.user_icon{
+    width: 25px;
+    height: 25px;
+    float: left;
+    border-radius: 50%;
+    border: 1px solid #e6e6fa;
+    margin-left: 16px;
+  }
+  
+  .account_name{
+    font-size: 15px;
+    color:#606060;
+    font-weight: 500;
+    margin-left: 5px;
+  position: relative;
+  top:1px;
+  }

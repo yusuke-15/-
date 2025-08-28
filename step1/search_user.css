@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    min-height: 600px;
+    position: relative;
+    padding-bottom: 150px;
+}
+
+.main {
+    padding: 0 15% 0 15%;
+    width: 1050px;
+    margin: auto;
+}
+
+.fav {
+    float: right;
+}
+
+#tab {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.tab {
+    flex: auto;
+    display: inline;
+    padding-top: 8px;
+    color: #909090;
+}
+
+.tab:hover {
+    color: black;
+
+}
+
+h3 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    display: inline-block;
+    width: 160;
+    height: 210;
+    padding: 15px;
+}
+
+.box {
+    width: 160px;
+    height: 160px;
+}
+
+#img {
+    border-radius: 10px;
+    width: 160px;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #e6e6fa;
+}
+
+#img:hover {
+    opacity: 0.9;
+}
+
+.iconN {
+    position: relative;
+    margin-left: 3px;
+    top: -5px;
+}
+
+.inner {
+    padding-top: 3px;
+}
+
+.num {
+    text-decoration: none;
+    color: inherit;
+    flex: auto;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    font-size: 80%;
+}
+
+#now {
+    background-color: black;
+}
+
+#headName {
+    display: inline;
+    text-align: right;
+    color: #909090;
+    font-size: 15px;
+}
+
+#btnImg {
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #0096fa;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 999999px;
+    border: none;
+    width: 132px;
+    height: 50px;
+}
+
+#btnImg:hover {
+    background-color: #028de9;
+}
+
+
+#others:hover {
+    background-color: whitesmoke;
+}
+
+#illustArea {
+    padding-left: 45px;
+}
+
+.kensaku {
+    font-size: 30px;
+}
+
+.kensakuW {
+    font-size: 15px;
+}
+
+
+footer {
+    position: absolute;
+    /*←絶対位置*/
+    bottom: 0;
+    /*下に固定*/
+    margin-left: 45%;
+}
+
+.foot {
+    margin-bottom: -10px;
+    object-fit: cover;
+    width: 150px;
+    height: 100px;
+    opacity: .50;
+}
+*{
+    margin: 0;
+}
+.main {
+    padding: 0 15% 0 15%;
+    width: 1050px;
+    margin: auto;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+#icon{
+    border-radius: 50%;
+    margin:25px 15px 0 0;
+    object-fit: cover;
+}
+.head{
+    display: flex;
+}
+.userData{
+    padding: 20px 0 15px 0;
+    width: 372px;
+    white-space: nowrap;
+}
+.data{
+    padding-bottom: 19px;
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 132;
+}
+#btnImg{
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #0096fa;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 999999px;
+    border:none;
+}
+#btnImg:hover{
+    background-color: #028de9;
+}
+li {
+    display: inline-block;
+    width: 160;
+    height: 210;
+    padding: 15px;
+}
+#img{
+    border-radius: 10px;
+    width: 160px;
+    height: 100%;
+    object-fit: cover;
+}
+#img:hover{
+    opacity: 0.9;
+}
+.inner{
+    padding-top: 3px;
+}
+#now{
+    background-color: black;
+}
+.num {
+    flex: auto;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    display:inline-block;
+    height: 25px;
+    width: 25px;
+    font-size:80%;
+}
+#others:hover{
+    background-color: whitesmoke;
+}
+#profile{
+    padding-left: 135px;
+    width: 850px;
+    word-break:break-word;
+    color:#404040;
+}
+.box{
+    width: 160px ;
+    height: 160px;
+}
+body{
+    margin: auto;
+    font-weight: bold;
+}
+#illustArea{
+    padding-left: 45px;
+}
+.tab{
+    display: inline;
+    padding-top: 8px;
+}
+.fileLabel {
+    color: white;
+    /* 枠線 */
+    border-radius: 50%;
+    /* 角丸 */
+    display: inline-block;
+    /* インラインブロック化 */
+}
+.fileLabel img {
+    vertical-align: bottom;
+    /* 画像の垂直方向の配置 */
+}
+.fileLabel:hover {
+    opacity: 0.75;
+    /* 半透明 */
+    cursor: pointer;
+    /* マウス形状(ポインタ) */
+}
+#fileSend {
+    display: none;
+    /* 本来のファイル選択フォームは非表示に */
+}
+#edit{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: absolute;
+    transform: translate(-60px, -40px);
+}
+.introduction{
+    resize: none;
+    width:1000px;
+}
+#ellipsis{
+    width: 160px; /* 省略せずに表示するサイズを指定 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.foot{
+    margin-left: 15%;
+    margin-top: 80px;
+    margin-bottom: -8px;
+    width:150px;
+    height:100px;
+    opacity: .50;
+  }
